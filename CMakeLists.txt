@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.13.4)
+project(hexagonal-this)
+add_subdirectory(src)
+add_subdirectory(test) 
+add_subdirectory(lib/googletest)
