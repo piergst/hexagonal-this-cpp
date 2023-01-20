@@ -2,6 +2,7 @@
 #define POETRYREADER_H
 #include "iobtainpoems.h"
 #include "irequestverses.h"
+#include "poetrylibrary.h"
 
 // Hexagon definition
 class PoetryReader : public IRequestVerses {
