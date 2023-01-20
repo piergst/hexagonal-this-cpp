@@ -4,3 +4,4 @@ add_test(NAME ${PROJECT_NAME} COMMAND ${PROJECT_NAME})
 
 target_link_libraries(${PROJECT_NAME}_tests PUBLIC ${PROJECT_NAME}_lib gtest gmock)
 
+add_compile_definitions(PROJECT_PATH="${PROJECT_SOURCE_DIR}")  

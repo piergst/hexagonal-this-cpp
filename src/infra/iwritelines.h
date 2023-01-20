@@ -5,12 +5,12 @@
 
 class IWriteLines {
  public:
-  virtual void writeLines(std::string text) = 0;
+  virtual void writeLines(const std::string &lines) = 0;
 };
 
 class ConsolePublicationStrategy : public IWriteLines {
  public:
-  void writeLines(std::string text) { std::cout << text; }
+  void writeLines(const std::string &lines) { std::cout << lines; }
 };
 
 #endif
