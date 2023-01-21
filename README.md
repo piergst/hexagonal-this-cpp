@@ -1,6 +1,7 @@
 # Hexagonal-this, a c++ implementation
 This work is based on a live coding session with Alistair COCKBURN, Thomas PIERRAIN and Romeu MOURA. This is a simple kata about Hexagonal Architecture. 
 
+
 ## Prerequisites for executing project tests
 Install googletest (from project root directory) : 
 ```
@@ -37,3 +38,5 @@ Each step here match with a commit in main branch.
 
 5. Test drive __a right-side PoemFileAdapter__ that will return the content of a file knowing its path (file being: poem.txt).
 
+## Architecture sketch diagram
+![Architecture sketch](hexagonal-this.png)
